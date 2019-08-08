@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.author             = { "Sendy Halim" => "sendyhalim93@gmail.com" }
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
+  s.swift_version = ['4.2', '5.0']
   s.social_media_url   = "https://github.com/sendyhalim"
-  s.source       = { :git => "https://github.com/sendyhalim/Swime.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/tonthatvinh/Swime.git", :tag => s.version }
   s.source_files  = "Sources/**/*.{swift}"
 end
